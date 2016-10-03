@@ -4,6 +4,10 @@ namespace NativeBinding.iOS
 {
 	public class Adder:IAdder
 	{
+		public Adder()
+		{
+		}
+
 		public int CSAdd(int a, int b)
 		{
 			throw new NotImplementedException();
